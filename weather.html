@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather in {{ city }}</title>
+</head>
+<body>
+    <h1>Weather in {{ city }}<h1>
+    <ul>
+        <li>Temperature: {{weather.temperature}} °C</li>
+        <li>Pressure : {{weather.pressure}} hPa </li>
+        <li>Humidity : {{weather.humidity}} %</li>
+        <li>Wind Speed : {{weather.wind_speed}} ms</li>
+        <li>Description : {{weather.description}}</li>
+    </ul>
+    <a href="/">Back</a>
+</body>
+</html>
